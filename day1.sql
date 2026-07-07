@@ -29,6 +29,20 @@ insert INTO student values (101,"Ammu",20,"DS","KOCHI");
 ----- (102,"ANU",21,"DA","KOZHIKODE"),
 ----- (103,"APPU",20,"PYTHON","KANNUR"),
 ----- (104,"ADARSH",22,"DS","KOCHI"); 
-DROP TABLE STUDENTS;
+
+----- DQL = select\
+select * from student;
+
+
+----- delete
+delete from students where ID = 104;
+
+set sql_safe_updates=0;
+
+----- update 
+update students set course = "Data Scinece" where id = 101;
+
+
+
 
 
