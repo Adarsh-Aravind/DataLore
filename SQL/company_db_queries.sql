@@ -1,4 +1,5 @@
 -- Q1. Create a database named CompanyDB.
+DROP DATABASE IF EXISTS CompanyDB;
 CREATE DATABASE CompanyDB;
 
 -- Q2. Use the database.
